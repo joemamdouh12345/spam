@@ -38,20 +38,20 @@ client.on('message', message => {
 }); 
 
 client.on('message', message => {
-    if(message.content === '#d'){
+    if(message.content === 'd'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '#m'){
+    if(message.content === 'm'){
         message.channel.send('#credits')
     }
 });
 
 client.on('ready', async() => {
 var server = "519890778823196672"; 
-var channel = "524552039464697857";
+var channel = "570163763240763403";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('SHADOW IS THE ONESHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE >  SHADOW IS THE ONE > >SHADOW IS THE ONE > SHADOW IS THE ONE > SHADOW IS THE ONE >  SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE ONE >SHADOW IS THE OSHADOW IS THE ONE >NE >')
     },305);
